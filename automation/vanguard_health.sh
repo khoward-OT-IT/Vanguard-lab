@@ -18,5 +18,15 @@ ip addr show | grep "inet "
 
 echo ""
 echo "==== PING TEST ===="
+echo ""
+echo "==== MEMORY USAGE ===="
+free -h
+
+echo ""
+echo "==== CLOUDFLARE TUNNEL ===="
+systemctl status cloudflared | grep "Active:"
+
+
+
 ping -c 1 8.8.8.8
 
