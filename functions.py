@@ -13,3 +13,13 @@ def  check_device(device):
 
 check_device("router")
 check_device("toaster")
+
+def get_status(device):
+	if device in devices:
+		return "ONLINE"
+	else:
+		return "NOT FOUND"
+
+result = get_status("router")
+print(result)
+
