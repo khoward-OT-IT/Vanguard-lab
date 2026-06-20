@@ -6,6 +6,7 @@
 
 import subprocess
 import datetime
+import os
 
 LOG_FILE = "ping_log.txt"
 
@@ -46,4 +47,8 @@ for device in devices:
 		unreachable += 1
 
 log_entry(f"--- Scan Complete: {reachable} reachable, {unreachable} unreachable ---")
+
+
+size = os.path.getsize(LOG_FILE)
+print(f"Log file size: {size} bytes")
 

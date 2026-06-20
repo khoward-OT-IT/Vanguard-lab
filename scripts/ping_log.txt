@@ -43,3 +43,9 @@
 [2026-06-20 14:17:36] OK - 8.8.8.8 is reachable
 [2026-06-20 14:17:39] FAULT - 192.168.1.99 is unreachable
 [2026-06-20 14:17:39] --- Scan Complete: 2 reachable, 2 unreachable ---
+[2026-06-20 15:06:39] --- Scan started ---
+[2026-06-20 15:06:39] OK - 192.168.1.1 is reachable
+[2026-06-20 15:06:42] FAULT - 192.168.1.10 is unreachable
+[2026-06-20 15:06:42] OK - 8.8.8.8 is reachable
+[2026-06-20 15:06:45] FAULT - 192.168.1.99 is unreachable
+[2026-06-20 15:06:45] --- Scan Complete: 2 reachable, 2 unreachable ---
