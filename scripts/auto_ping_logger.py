@@ -32,6 +32,19 @@ def ping_device(ip):
 	)
 	return result.returncode == 0
 
+def rotate_log():
+	if os.path.exists(LOG_FILE):
+		with open(LOG_FILE, "r") as f:
+			lines = f.readlines()
+		if len(lines) > 50:
+			timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+			archive_name = f"ping_log_{timestamp}.txt"
+			os.rename(LOG_FILE, archive_name)
+			print(f"log rotated: {archive_name}")
+
+rotate_log()
+
+
 log_entry("--- Scan started ---")
 
 
