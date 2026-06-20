@@ -25,3 +25,21 @@
 [2026-06-19 20:42:09] OK - 8.8.8.8 is reachable
 [2026-06-19 20:42:12] FAULT - 192.168.1.99 is unreachable
 [2026-06-19 20:42:12] --- Scan Complete ---
+[2026-06-20 14:13:08] --- Scan started ---
+[2026-06-20 14:13:08] OK - 192.168.1.1 is reachable
+[2026-06-20 14:13:11] FAULT - 192.168.1.10 is unreachable
+[2026-06-20 14:13:11] OK - 8.8.8.8 is reachable
+[2026-06-20 14:13:14] FAULT - 192.168.1.99 is unreachable
+[2026-06-20 14:13:14] --- Scan Complete ---
+[2026-06-20 14:16:13] --- Scan started ---
+[2026-06-20 14:16:13] OK - 192.168.1.1 is reachable
+[2026-06-20 14:16:16] FAULT - 192.168.1.10 is unreachable
+[2026-06-20 14:16:16] OK - 8.8.8.8 is reachable
+[2026-06-20 14:16:19] FAULT - 192.168.1.99 is unreachable
+[2026-06-20 14:16:19] --- Scan Complete: {reachable} reachable, {unreachable} unreachable ---
+[2026-06-20 14:17:33] --- Scan started ---
+[2026-06-20 14:17:33] OK - 192.168.1.1 is reachable
+[2026-06-20 14:17:36] FAULT - 192.168.1.10 is unreachable
+[2026-06-20 14:17:36] OK - 8.8.8.8 is reachable
+[2026-06-20 14:17:39] FAULT - 192.168.1.99 is unreachable
+[2026-06-20 14:17:39] --- Scan Complete: 2 reachable, 2 unreachable ---

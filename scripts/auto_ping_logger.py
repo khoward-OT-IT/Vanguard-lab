@@ -33,11 +33,17 @@ def ping_device(ip):
 
 log_entry("--- Scan started ---")
 
+
+reachable = 0
+unreachable = 0
+
 for device in devices:
 	if ping_device(device):
 		log_entry(f"OK - {device} is reachable")
+		reachable += 1
 	else:
 		log_entry(f"FAULT - {device} is unreachable")
+		unreachable += 1
 
-log_entry("--- Scan Complete ---")
+log_entry(f"--- Scan Complete: {reachable} reachable, {unreachable} unreachable ---")
 
