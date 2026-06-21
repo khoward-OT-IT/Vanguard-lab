@@ -1,0 +1,6 @@
+# Log files
+*.txt
+*.log
+
+# Nano back up files
+*.save

@@ -1,3 +1,0 @@
-[2026-06-18 20:33:29] OK - 192.168.1.1 responded normally
-[2026-06-18 20:33:37] FAULT - 192.168.1.10 returned code 2
-[2026-06-18 20:33:48] ERROR - 192.168.1.99 received invalid input

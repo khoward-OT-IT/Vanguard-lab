@@ -1,6 +1,0 @@
-[2026-06-20 18:02:49] --- Scan started ---
-[2026-06-20 18:02:49] OK - 192.168.1.1 is reachable
-[2026-06-20 18:02:52] FAULT - 192.168.1.10 is unreachable
-[2026-06-20 18:02:52] OK - 8.8.8.8 is reachable
-[2026-06-20 18:02:55] FAULT - 192.168.1.99 is unreachable
-[2026-06-20 18:02:55] --- Scan Complete: 2 reachable, 2 unreachable ---
