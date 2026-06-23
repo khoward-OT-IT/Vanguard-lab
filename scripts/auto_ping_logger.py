@@ -7,15 +7,16 @@
 import subprocess
 import datetime
 import os
+import json
+
 
 LOG_FILE = "ping_log.txt"
 
-devices = [
-	"192.168.1.1",
-	"192.168.1.10",
-	"8.8.8.8",
-	"192.168.1.99"
-]
+with open ("device_list.json",  "r") as f:
+	data = json.load(f)
+
+devices = [device["ip"] for device in data ["devices"]]
+
 
 def log_entry(message):
 	timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
